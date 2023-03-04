@@ -3,7 +3,7 @@ function createContactPage() {
     const pageContent = document.createElement("div");
     pageContent.classList.add("page-content");
 
-    const header = document.createElement("h3");
+    const header = document.createElement("h1");
     header.textContent = "Contact";
     pageContent.appendChild(header);
 
