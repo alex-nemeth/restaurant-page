@@ -1,7 +1,7 @@
 const createHomePage = () => {
     const content = document.querySelector("#content");
     const pageContent = document.createElement("div");
-    content.appendChild(pageContent);
+    pageContent.classList.add("page-content");
 
     const header = document.createElement("h3");
     header.textContent = "Welcome to our restaurant!";
@@ -19,6 +19,7 @@ const createHomePage = () => {
     pageContent.appendChild(header);
     pageContent.appendChild(image);
     pageContent.appendChild(par);
+    content.appendChild(pageContent);
 };
 
 export default createHomePage;
